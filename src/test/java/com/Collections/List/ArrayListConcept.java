@@ -47,7 +47,7 @@ public class ArrayListConcept {
 		
 		//iterator
 		System.out.println("Using iterater for printing all values in arraylist...");
-		Iterator<Employee> it = ar4.iterator(); //iterator wont work on index
+		Iterator<Employee> it = ar4.iterator(); //iterator wont work on index. Returns iterator type reference
 		while(it.hasNext()) //hasNext points to the first node in the array
 		{
 			Employee emp = it.next();	//next will point to the first object. 

@@ -19,6 +19,7 @@ public class HashMapConcept
 		System.out.println(map.get(5)); //gives null as no data is stored in key 5.
 		
 		//To print all values in hash map
+		System.out.println("Iterating using Entry method...");
 		System.out.println("Iterating and printing all vaues in map...");
 		for(Entry m : map.entrySet())
 		{
@@ -43,12 +44,13 @@ public class HashMapConcept
 		emp.put(3, e3);
 		
 		//Traverse the hash map
+		System.out.println("Printing values from hash table using entrySet(): ");
 		for(Entry<Integer, Employee> e : emp.entrySet())
 		{
 			int key = e.getKey();
 			Employee val = e.getValue();
 			
-			System.out.println("Employee" + key +"Info");
+			System.out.println("Employee " + key +" Info");
 			System.out.println(val.empname +" "+val.age +" "+val.empdept);
 		}
 

@@ -52,9 +52,9 @@ public class ArrayListConcept {
 		{
 			Employee emp = it.next();	//next will point to the first object. 
 										//As the value returned is employee type we are saving it in employee reference
-			System.out.println("Age: "+emp.age);
-			System.out.println("Name: "+emp.empname);
-			System.out.println("Dept: "+emp.empdept);
+			System.out.println("Age: "+ emp.age);
+			System.out.println("Name: "+ emp.empname);
+			System.out.println("Dept: "+ emp.empdept);
 		}
 		
 		//addAll() -adds two array list objects into one
@@ -88,7 +88,7 @@ public class ArrayListConcept {
 			System.out.println(ar5.get(j));
 		}
 		
-		//retainAll() --to get common objects from two arraylist.
+		//retainAll() --to get common objects from two array list.
 		System.out.println("*****retainAll()*****");
 		
 		ArrayList<String> ar7=new ArrayList<String>();

@@ -56,7 +56,7 @@ public class LinkedListConcept
 		System.out.println("Using advance for loop...");
 		for(String str: ll)
 		{
-			System.out.println("Value in the LinkedList is: "+str);
+			System.out.println("Value in the LinkedList is: "+ str);
 		}
 		
 		System.out.println("**********");
